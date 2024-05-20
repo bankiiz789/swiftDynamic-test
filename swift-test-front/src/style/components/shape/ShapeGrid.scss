@@ -1,0 +1,52 @@
+/* src/components/ShapeGrid.scss */
+
+.shape-grid {
+  .upper {
+    margin-block: 8px;
+    text-align: end;
+  }
+
+  .upper.center {
+    text-align: center;
+  }
+
+  .lower {
+    text-align: center;
+  }
+
+  .lower.end {
+    text-align: end;
+  }
+
+  .geo {
+    background-color: grey;
+    &.circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    &.trapezoid {
+      clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+      width: 150px;
+      height: 100px;
+    }
+    &.rectangle {
+      width: 200px;
+      height: 100px;
+    }
+    &.ellipse {
+      width: 200px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    &.parallel {
+      clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 20% 100%);
+      width: 200px;
+      height: 100px;
+    }
+    &.square {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

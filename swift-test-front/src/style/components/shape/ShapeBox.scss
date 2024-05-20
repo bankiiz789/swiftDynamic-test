@@ -1,0 +1,29 @@
+@import "../../mixins.scss";
+@import "../../variable.scss";
+
+.shape-box {
+  border-radius: 8px;
+  min-width: 250px;
+  height: 150px;
+  background-color: white;
+  @include center(center, center);
+  position: relative;
+
+  .shape-description {
+    color: white;
+    position: absolute;
+    bottom: -8px;
+    font-size: 12px;
+    background-color: $secondary-color;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+
+  &.hovered {
+    background-color: $primary-color;
+  }
+
+  &.blink {
+    background-color: $secondary-color;
+  }
+}

@@ -1,0 +1,22 @@
+.shape-mover {
+  padding-block: 2rem;
+  border-bottom: 1px solid rgb(144, 141, 141);
+
+  .shape-mover__icon {
+    font-size: 100px;
+    height: 150px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    span {
+      svg {
+        fill: gray;
+      }
+    }
+    .arrow-wrapper {
+      display: flex;
+      gap: 4rem;
+      padding-inline: 4rem;
+    }
+  }
+}

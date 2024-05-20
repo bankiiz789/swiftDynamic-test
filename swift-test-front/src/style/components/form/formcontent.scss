@@ -1,0 +1,18 @@
+.form-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-block: 1rem;
+  position: relative;
+  .home-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .form-content {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 8px;
+  }
+}

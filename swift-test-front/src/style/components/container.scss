@@ -1,0 +1,9 @@
+@import "../mixins.scss";
+@import "../variable.scss";
+
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  @include center(center, center);
+  position: relative;
+}

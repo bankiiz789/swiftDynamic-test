@@ -1,0 +1,11 @@
+.changeLanguages {
+  position: absolute;
+  top: 0;
+  right: 0;
+  &.for-home {
+    margin: 8px;
+  }
+  &.for-layout {
+    margin: 8px;
+  }
+}

@@ -1,0 +1,9 @@
+@import "./reset.scss";
+@import "./variable.scss";
+@import "./mixins.scss";
+
+body {
+  background: $secondary-color;
+  background: linear-gradient(104deg, $secondary-color 5%, $primary-color 96%);
+  font-family: Arial, sans-serif;
+}
